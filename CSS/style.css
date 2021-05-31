@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+section{
+    height: 800px;
+    clear: both;
+  
+
+}
+.intro{
+    background: url(../images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.intro .explain{
+    padding:140px 0;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin:2%;
+    padding:2%
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 179);
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 25px;
+   
+    
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h6{
+
+        font-size: 16px;
+        margin-bottom:15px;
+        color: gray;
+    
+}
+
+
+
+p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.link-button{
+    padding: 5px 20px;
+    background:rgb(255, 0, 179);
+    border-radius: 5px;
+    color:white;
+}
+
+       /* biography css */
+
+.biography{
+    background: url(../images/biography-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.biography .explain{
+    padding:140px 0;
+}
+
+
+  /* biography css  end*/
+
+
+/*latest work css start*/
+.one-third{
+    width: 25%;
+    float: left;
+    margin:2%;
+    padding:100px 2%
+}
+
+.work{
+    background: url(../images/latest-work-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.work .text{
+    text-align: center;
+    padding: 25px 0;
+}
+
+/*latest work css end*/
+
+/*Client and contact css start*/
+.contact{
+    text-align: center;
+    height: 600px;
+}
+.client p{
+    color:black;
+}
+
+.contact_form{
+    width:60%;
+    height: 150px;
+    background: rgb(238, 31, 176);
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+.contact_form h6{
+    color:white;
+
+}
+
+/*Client and contact css start*/
+
+
+/*Footer css start*/
+ .footer{
+     text-align: center;
+     margin: 0 auto;
+     height: 80px;
+ }
+/*Footer css End*/

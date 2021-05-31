@@ -7,6 +7,7 @@ ul,ol{
 }
 a{
     text-decoration: none;
+    
 }
 img{
     width: 100%;
@@ -70,12 +71,13 @@ h6{
 
 p{
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: gray;
 }
 
 .link-button{
     padding: 5px 20px;
+    
     background:rgb(255, 0, 179);
     border-radius: 5px;
     color:white;
@@ -90,7 +92,7 @@ p{
 }
 
 .biography .explain{
-    padding:140px 0;
+    padding:250px 0;
 }
 
 

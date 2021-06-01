@@ -77,10 +77,17 @@ p{
 
 .link-button{
     padding: 5px 20px;
+    border:2px solid silver;
+    background:transparent;
     
-    background:rgb(255, 0, 179);
-    border-radius: 5px;
-    color:white;
+    color:black;
+    
+}
+.link-button:hover{
+    color:rgb(245, 14, 195);
+    border-image: linear-gradient(rgb(114, 231, 114),rgb(255, 255, 0),rgb(245, 14, 195));
+    border-image-slice: 1;
+   
 }
 
        /* biography css */
